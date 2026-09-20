@@ -13,6 +13,7 @@
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
+      "launchUrl": "Movies",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7059;http://localhost:5003",
       "environmentVariables": {
