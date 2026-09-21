@@ -151,6 +151,8 @@ public class MoviesController : Controller
     }
 
     // POST: MOVIES/Delete/5
+    // Lehetne csak túl terhelni is egy paraméterrel és ennek is Delete nevet adni,
+    // de így szebb ha az Actionname()-et használjuk
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int? id)
